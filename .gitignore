@@ -1,0 +1,11 @@
+.DS_Store
+.env*
+!.env.example
+secrets/
+node_modules/
+.vercel/
+.work/
+.lab-knowledge/
+__pycache__/
+*.pyc
+dist/
