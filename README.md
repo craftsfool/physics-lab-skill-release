@@ -8,6 +8,15 @@
 
 通过具备访问权限的GitHub账号下载私有Release附件及SHA256校验文件，在本机校验ZIP。使用发行附件 `install_skill.py --archive <ZIP> --sha256-file <校验文件> --destination <Codex skills目录>` 安装。默认安装为新名字`physics-lab-report`，不覆盖已有的`university-physics-lab-report`。如目标目录已存在，先检查已安装版本，安装程序不会自动覆盖。
 
+当前私有发行版本为[v0.1.6](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.1.6)。通过已授权账号下载：
+
+```bash
+gh release download v0.1.6 --repo craftsfool/physics-lab-skill-release --dir release-v0.1.6
+python3 release-v0.1.6/install_skill.py --archive release-v0.1.6/physics-lab-report-0.1.6.zip --sha256-file release-v0.1.6/physics-lab-report-0.1.6.zip.sha256 --destination "$HOME/.codex/skills"
+```
+
+生产接口为`https://physics-lab-reference-api.vercel.app/api/reference`，只接受带个人令牌的POST。当前已发布偏振光学教材8个模块；其他教材与前人报告须维护者核对后发布，安装包不包含这些资料。
+
 API端点和用户令牌通过维护者私下配置环境提供。教材/前人资料只经鉴权API，或者由用户明确提供本地文件。API响应只用于当前任务，不写文件；允许缓存AI归纳的知识和来源索引。
 
 安装者可以阅读本机skill与客户端；私有分发不能阻止其复制已获得的内容。安装包只有写作与处理能力，私有资料的访问范围由服务端控制。
