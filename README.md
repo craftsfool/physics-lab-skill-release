@@ -21,7 +21,7 @@
 
 ## 安装
 
-当前版本为 **v0.2.2**，插件代码已采用MIT许可开源。无需申请GitHub仓库权限，在 Codex 中发送：
+当前版本为 **v0.2.3**，插件代码已采用MIT许可开源。无需申请GitHub仓库权限，在 Codex 中发送：
 
 > 请从 GitHub 仓库 craftsfool/physics-lab-skill-release 添加插件源，安装其中的“大学物理实验报告”插件，然后带我完成首次设置。
 
@@ -50,7 +50,7 @@ codex plugin add physics-lab-report@physics-lab-private
 
 ## 下载与更新
 
-- [v0.2.2 安装包](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.2)
+- [v0.2.3 安装包](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.3)
 - [v0.2.0](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.0) 与 [旧技能 v0.1.8](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.1.8) 保留。
 
 通过插件源安装后可更新到新版。安装包内不包含教材原文、资料库或个人凭据。
@@ -60,3 +60,9 @@ codex plugin add physics-lab-report@physics-lab-private
 插件代码、脚本和使用说明采用 [MIT许可](LICENSE)。报告纸中的学校标志等第三方资源不属于MIT授权，见 [第三方资源说明](THIRD_PARTY_NOTICES.md)。本项目不是学校官方产品。
 
 后台服务、教材原文和私有资料库继续独立授权，不在开源范围内。完整Git历史、历史安装包与发行附件已做凭据和私有资料审查，见 [开源前审查报告](docs/open-source-audit.md)。
+
+## 联系码清理与旧版本
+
+公开模板已移除个人QQ联系码，使用中性报告图案。全部公开历史及旧安装包也已清理，旧包SHA256已更新，请使用当前附件中的校验文件。
+
+原始仓库和原始安装包由维护者保存在私有归档中。隐私清理改变了部分提交与标签SHA；请重新克隆本仓库，不要向这里推送旧克隆或原始安装包。详情见 [审查报告](docs/open-source-audit.md)。

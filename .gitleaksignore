@@ -1,2 +1,2 @@
-# Verified immutable file checksum; see docs/open-source-audit.md.
-2bf9a08d6fd0d739f2e46d7f509e79489d082e35:plugins/physics-lab-report/manifest.json:generic-api-key:17
+# Reviewed exact file-checksum fingerprints, verified against their historical files.
+b0e9b7646a84ce665a30027d054f0415ed0a1000:plugins/physics-lab-report/manifest.json:generic-api-key:17
