@@ -1,0 +1,4 @@
+interface:
+  display_name: "大学物理实验报告：首次设置"
+  short_description: "介绍报告插件功能与完整使用流程，检测能力并选择资料来源"
+  default_prompt: "使用 $setup，介绍大学物理实验报告插件并带我完成首次设置。"

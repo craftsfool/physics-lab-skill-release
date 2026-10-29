@@ -1,0 +1,46 @@
+{
+  "emblem": {
+    "source_url": "https://vi.sjtu.edu.cn/uploads/files/caf2f5045c47308250fab3812dfe2003-6896b91594f238b24e67696224948251.png",
+    "source_sha256": "112aa440081904cd37125ccd9b4f383d631461bc570551497ef04afeb41292da",
+    "source_pixels": [
+      2805,
+      2806
+    ],
+    "method": "Black vector outlines traced from official PNG alpha at threshold 128; 0.18px contour tolerance. Not official original AI artwork.",
+    "output": "blank-report.tex: BrandEmblem",
+    "cropped_pixels": [
+      2493,
+      2492
+    ],
+    "variant": "Central gear emblem only, as printed on the user report paper; outer university-name ring omitted."
+  },
+  "chinese": {
+    "source_url": "https://vi.sjtu.edu.cn/uploads/files/4db0e710e5f315187fb467bbc5276078-e0012ccb0271f6dc738c024a653801e9.png",
+    "source_sha256": "61bd6942040b14072f670d43881fdd1cd41d4ffded1145f9c18887f2f1d4f00f",
+    "source_pixels": [
+      3567,
+      1042
+    ],
+    "method": "Black vector outlines traced from official PNG alpha at threshold 128; 0.18px contour tolerance. Not official original AI artwork.",
+    "output": "blank-report.tex: BrandChinese",
+    "cropped_pixels": [
+      2699,
+      623
+    ]
+  },
+  "english": {
+    "source_url": "https://vi.sjtu.edu.cn/uploads/files/dcc4f33eccd02f146291b9313a862340-e819a5ae0ad34034dafd25f22653ebaa.png",
+    "source_sha256": "447b2dbd693c5f1364d7f41facec0a8386438560697d64fe0ee04dcddec89451",
+    "source_pixels": [
+      3567,
+      413
+    ],
+    "method": "Black vector outlines traced from official PNG alpha at threshold 128; 0.18px contour tolerance. Not official original AI artwork.",
+    "output": "blank-report.tex: BrandEnglish",
+    "cropped_pixels": [
+      3090,
+      175
+    ]
+  },
+  "embedded_geometry": "All official-brand contours embedded as TikZ paths in blank-report.tex; no external image files or system fonts needed."
+}

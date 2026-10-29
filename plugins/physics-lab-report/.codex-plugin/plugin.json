@@ -1,0 +1,41 @@
+{
+  "name": "physics-lab-report",
+  "version": "0.2.0",
+  "description": "真实报告纸排版、实时编译预览与选区修改，支持30天设备 Key 和教材章节在线预览。",
+  "author": {
+    "name": "craftsfool"
+  },
+  "repository": "https://github.com/craftsfool/physics-lab-skill-release",
+  "license": "Proprietary",
+  "keywords": [
+    "physics",
+    "lab-report",
+    "latex",
+    "preview",
+    "education"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "大学物理实验报告",
+    "shortDescription": "按真实报告纸排版，预览报告并通过选区提出修改",
+    "longDescription": "从原始记录到可打印报告：核对手写数据、完成计算与拟合、使用 MATLAB/Python/Excel 绘图，按真实报告纸安排正文、公式和图表。桌面端利用宿主 LaTeX 编辑器在修改后自动编译刷新；在支持的预览中通过选区或批注提出局部修改。ChatGPT 网页端支持文件生成、下载和逐轮修改。首次使用介绍完整流程，支持个人资料 API 或本地材料；资料服务令牌可选，无需额外 OpenAI API Key。 支持首次设备登记领取30天资料 Key，无需 OpenAI Client ID；按授权在线预览当前实验教材章节。",
+    "developerName": "craftsfool",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "第一次使用大学物理实验报告，介绍功能并带我完成设置。",
+      "用我的模板和原始记录完成本次报告，打开预览。",
+      "按我选中或批注的部分修改报告，保留其余内容。",
+      "登记设备领取30天资料 Key，并打开本次实验教材章节。"
+    ]
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

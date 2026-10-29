@@ -1,0 +1,144 @@
+{
+  "paper_mm": [
+    210,
+    290
+  ],
+  "default": "filled_template",
+  "basis": {
+    "matching_handwritten_samples": 4,
+    "alternate_digital_samples": 2,
+    "matching_experiment_types": [
+      "光栅",
+      "RLC",
+      "非平衡电桥",
+      "磁聚焦"
+    ],
+    "observation": "Four scanned reports use matching ruled sections, compact numbered paragraphs, inline equations, narrow diagrams beside prose, and grouped tables. Some cross headings or page boundaries: these overflows are excluded from recommended layouts.",
+    "native_font_measurements_pt": {
+      "RLC_digital_body": [
+        10.5,
+        11
+      ],
+      "solar_cell_digital_body": [
+        10.5
+      ]
+    },
+    "native_illustration_examples_mm": [
+      [
+        35.5,
+        30.2
+      ],
+      [
+        81.2,
+        39.3
+      ],
+      [
+        101.4,
+        52.9
+      ],
+      [
+        146.5,
+        52.3
+      ]
+    ],
+    "limits": "Native PDF font sizes and image rectangles are measured in the alternate electronic papers, not the current 210x290 template. Handwriting-derived widths and small-diagram ranges are visual estimates. Recommended printed settings below are design defaults, not measured handwritten point sizes."
+  },
+  "roles": {
+    "body": {
+      "default_pt": 9.5,
+      "min_pt": 8.5,
+      "max_pt": 11,
+      "baseline_mm": 8.3
+    },
+    "formula": {
+      "default_pt": 9.5,
+      "min_pt": 8.5,
+      "max_pt": 11,
+      "baseline_mm": 6
+    },
+    "table": {
+      "default_pt": 8.5,
+      "min_pt": 8,
+      "max_pt": 10,
+      "baseline_mm": 4.5
+    },
+    "caption": {
+      "default_pt": 8.5,
+      "min_pt": 7.5,
+      "max_pt": 10,
+      "baseline_mm": 4
+    },
+    "diagram": {
+      "default_pt": 8.5,
+      "min_pt": 7.5,
+      "max_pt": 10,
+      "baseline_mm": 4
+    }
+  },
+  "template_printed_fonts_pt": {
+    "title": 17,
+    "section": 14,
+    "identity_labels": 11.5,
+    "page_number": 9,
+    "institution_footer": 8,
+    "url": 7.3
+  },
+  "handwriting_cjk_width_mm_provisional": [
+    2.6,
+    3.5
+  ],
+  "main_text_indent_em": 1,
+  "paragraph_extra_space_pt": 0,
+  "display_math_vertical_skip_pt": 2,
+  "illustrations": {
+    "simple_diagram_mm": {
+      "width": [
+        35,
+        65
+      ],
+      "height": [
+        15,
+        30
+      ]
+    },
+    "text_figure_gap_mm": [
+      1,
+      2
+    ],
+    "main_panel_width_mm": [
+      75,
+      100
+    ],
+    "appendix_panel_width_mm": [
+      85,
+      174
+    ],
+    "policy": "Crop empty margins; keep aspect ratio and readable labels; reserve only the actual graphic rectangle and retain prose alongside narrow diagrams."
+  },
+  "table_policy": {
+    "compact_typed_row_height_mm": [
+      4.5,
+      6.5
+    ],
+    "handwritten_observation": "Many scanned table rows follow one printed rule interval, around 8 mm; compact typed rows need not follow that interval.",
+    "repeat_units_in_each_cell": false,
+    "omit_measured_data": false
+  },
+  "overflow_policy": "Keep essential formulas, substitutions, results and conclusions in their sections. Split supplementary derivations or long tables into same-template continuation pages; never clip or silently shrink below readable defaults.",
+  "body_baseline_alignment": "above_lower_rule",
+  "body_baseline_rule_clearance_mm": 0.8,
+  "math_baseline_rule_clearance_mm": 1.8,
+  "formula_flow": "inline_breakable_equations_in_natural_spacing_ruled_paragraphs",
+  "formula_background": "none",
+  "formula_break_policy": "break_at_operators_as_line_width_requires_protect_fraction_script_function_and_numeric_unit",
+  "compact_spacing": {
+    "math_thin_mu": 1.5,
+    "math_medium_mu": 2,
+    "math_thick_mu": 2,
+    "cjk_latin_em": 0.2,
+    "number_unit": "thin_space",
+    "negative_tracking": false,
+    "stretch_to_fill_line": false
+  },
+  "paragraph_alignment": "left_no_justification_stretch"
+}

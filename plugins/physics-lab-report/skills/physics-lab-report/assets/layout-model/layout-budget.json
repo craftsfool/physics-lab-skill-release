@@ -1,0 +1,1187 @@
+{
+  "paper_mm": [
+    210,
+    290
+  ],
+  "calibration": "four_page_vision_ocr_and_photographic_vector_reconstruction_2026-10-11",
+  "line_pitch_mm": 8.3,
+  "char_width_mm": 3.0,
+  "reserve_fraction": 0.05,
+  "draft_font_pt": 9,
+  "pages": [
+    {
+      "page": 1,
+      "title": "物理实验报告（预习）",
+      "regions": [
+        {
+          "id": "principle",
+          "label": "实验原理（简述、原理图及主要公式）",
+          "rect_mm": [
+            19,
+            73.0,
+            173,
+            72.9
+          ],
+          "line_pitch_mm": 8.1,
+          "available_lines": 8,
+          "recommended_lines": 8,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 433,
+          "chars_after_blocks_estimate": 456,
+          "recommended_chars_after_blocks": 433,
+          "recommended_full_line_equivalent": 7.6,
+          "blocks": [],
+          "reserved_areas": [
+            {
+              "id": "preview_corner_image",
+              "label": "预习页右下角图片",
+              "rect_mm": [
+                173,
+                246,
+                21,
+                22
+              ],
+              "gap_mm": 1
+            }
+          ],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.3,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 15.399999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 23.5,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 31.599999999999998,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 39.699999999999996,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 47.8,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 55.89999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 63.99999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        },
+        {
+          "id": "purpose",
+          "label": "实验目的",
+          "rect_mm": [
+            19,
+            145.9,
+            173,
+            40.5
+          ],
+          "line_pitch_mm": 8.1,
+          "available_lines": 4,
+          "recommended_lines": 4,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 216,
+          "chars_after_blocks_estimate": 228,
+          "recommended_chars_after_blocks": 216,
+          "recommended_full_line_equivalent": 3.79,
+          "blocks": [],
+          "reserved_areas": [
+            {
+              "id": "preview_corner_image",
+              "label": "预习页右下角图片",
+              "rect_mm": [
+                173,
+                246,
+                21,
+                22
+              ],
+              "gap_mm": 1
+            }
+          ],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.3,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 15.399999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 23.5,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 31.599999999999998,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        },
+        {
+          "id": "data_table",
+          "label": "数据记录表（自拟）",
+          "rect_mm": [
+            19,
+            186.4,
+            173,
+            81.0
+          ],
+          "line_pitch_mm": 8.1,
+          "available_lines": 9,
+          "recommended_lines": 9,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 487,
+          "chars_after_blocks_estimate": 492,
+          "recommended_chars_after_blocks": 467,
+          "recommended_full_line_equivalent": 8.19,
+          "blocks": [],
+          "reserved_areas": [
+            {
+              "id": "preview_corner_image",
+              "label": "预习页右下角图片",
+              "rect_mm": [
+                173,
+                246,
+                21,
+                22
+              ],
+              "gap_mm": 1
+            }
+          ],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.3,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 15.399999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 23.5,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 31.599999999999998,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 39.699999999999996,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 47.8,
+              "spans_mm": [
+                [
+                  1,
+                  172
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 55.89999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  153
+                ]
+              ],
+              "cjk_chars_estimate": 50
+            },
+            {
+              "baseline_from_body_top_mm": 63.99999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  153
+                ]
+              ],
+              "cjk_chars_estimate": 50
+            },
+            {
+              "baseline_from_body_top_mm": 72.1,
+              "spans_mm": [
+                [
+                  1,
+                  153
+                ]
+              ],
+              "cjk_chars_estimate": 50
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "title": "物理实验报告",
+      "regions": [
+        {
+          "id": "scheme_instruments",
+          "label": "实验方案及仪器（实验方案，主要仪器及操作要点）",
+          "rect_mm": [
+            18,
+            74.0,
+            174,
+            97.2
+          ],
+          "line_pitch_mm": 8.1,
+          "available_lines": 10,
+          "recommended_lines": 10,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 541,
+          "chars_after_blocks_estimate": 570,
+          "recommended_chars_after_blocks": 541,
+          "recommended_full_line_equivalent": 9.49,
+          "blocks": [],
+          "reserved_areas": [],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.3,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 15.399999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 23.5,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 31.599999999999998,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 39.699999999999996,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 47.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 55.89999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 63.99999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 72.1,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 80.19999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        },
+        {
+          "id": "process_phenomena",
+          "label": "*实验过程及现象（操作顺序，观察到什么现象，遇到哪些问题，如何解决）",
+          "rect_mm": [
+            18,
+            171.2,
+            174,
+            97.2
+          ],
+          "line_pitch_mm": 8.1,
+          "available_lines": 10,
+          "recommended_lines": 10,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 541,
+          "chars_after_blocks_estimate": 570,
+          "recommended_chars_after_blocks": 541,
+          "recommended_full_line_equivalent": 9.49,
+          "blocks": [],
+          "reserved_areas": [],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.3,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 15.399999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 23.5,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 31.599999999999998,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 39.699999999999996,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 47.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 55.89999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 63.99999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 72.1,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 80.19999999999999,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "title": "物理实验报告",
+      "regions": [
+        {
+          "id": "processing_results",
+          "label": "实验数据处理及结果",
+          "rect_mm": [
+            18,
+            30.0,
+            174,
+            235.2
+          ],
+          "line_pitch_mm": 8.4,
+          "available_lines": 27,
+          "recommended_lines": 27,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 1462,
+          "chars_after_blocks_estimate": 1539,
+          "recommended_chars_after_blocks": 1462,
+          "recommended_full_line_equivalent": 25.65,
+          "blocks": [],
+          "reserved_areas": [],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 16.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 24.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 32.800000000000004,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 41.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 49.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 58.00000000000001,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 66.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 74.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 83.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 91.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 100.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 108.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 116.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 125.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 133.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 142.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 150.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 158.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 167.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 175.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 184.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 192.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 200.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 209.20000000000002,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 217.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 226.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "title": "物理实验报告",
+      "regions": [
+        {
+          "id": "summary_discussion",
+          "label": "实验总结及讨论（实验收获、反思及思考题解答）",
+          "rect_mm": [
+            18,
+            24.0,
+            174,
+            151.2
+          ],
+          "line_pitch_mm": 8.4,
+          "available_lines": 16,
+          "recommended_lines": 16,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 866,
+          "chars_after_blocks_estimate": 912,
+          "recommended_chars_after_blocks": 866,
+          "recommended_full_line_equivalent": 15.19,
+          "blocks": [],
+          "reserved_areas": [],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 16.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 24.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 32.800000000000004,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 41.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 49.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 58.00000000000001,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 66.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 74.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 83.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 91.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 100.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 108.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 116.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 125.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 133.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        },
+        {
+          "id": "application",
+          "label": "*应用延伸与拓展（日常相关的应用或与自己专业相关的研究）",
+          "rect_mm": [
+            18,
+            175.2,
+            174,
+            92.4
+          ],
+          "line_pitch_mm": 8.4,
+          "available_lines": 9,
+          "recommended_lines": 9,
+          "chars_per_line_estimate": 57,
+          "text_only_chars_estimate": 487,
+          "chars_after_blocks_estimate": 513,
+          "recommended_chars_after_blocks": 487,
+          "recommended_full_line_equivalent": 8.54,
+          "blocks": [],
+          "reserved_areas": [],
+          "line_bands": [
+            {
+              "baseline_from_body_top_mm": 7.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 16.0,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 24.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 32.800000000000004,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 41.2,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 49.6,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 58.00000000000001,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 66.4,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            },
+            {
+              "baseline_from_body_top_mm": 74.8,
+              "spans_mm": [
+                [
+                  1,
+                  173
+                ]
+              ],
+              "cjk_chars_estimate": 57
+            }
+          ],
+          "note": "近似全角字符当量；图表按实际矩形扣除并保留环绕文字；公式按真实排列另计，不机械扣整行。"
+        }
+      ]
+    }
+  ]
+}

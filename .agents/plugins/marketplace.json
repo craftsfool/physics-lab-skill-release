@@ -1,0 +1,20 @@
+{
+  "name": "physics-lab-private",
+  "interface": {
+    "displayName": "大学物理实验报告（私有）"
+  },
+  "plugins": [
+    {
+      "name": "physics-lab-report",
+      "source": {
+        "source": "local",
+        "path": "./plugins/physics-lab-report"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}

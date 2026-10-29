@@ -1,0 +1,4 @@
+interface:
+  display_name: "大学物理实验报告"
+  short_description: "按真实报告纸排版、预览与选区修改，核对数据并完成计算绘图"
+  default_prompt: "使用 $physics-lab-report，结合获授权的参考资料和我的原始记录，完成本实验所需报告模块。"

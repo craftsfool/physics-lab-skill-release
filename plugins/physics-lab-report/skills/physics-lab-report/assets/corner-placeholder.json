@@ -1,0 +1,24 @@
+{
+  "source": "project_generated_report_icon",
+  "sha256": "45c4b84df156fdcfa0db1ed53755b54a6cfe9e697aa985a44aace4554a5b07d5",
+  "original_pixels": [
+    1254,
+    1254
+  ],
+  "page": 1,
+  "reserved_rect_mm": [
+    173,
+    246,
+    21,
+    22
+  ],
+  "image_rect_mm": [
+    173,
+    246.5,
+    21,
+    21
+  ],
+  "gap_mm": 1,
+  "rendering": "Neutral report/chart mark rendered with standalone TikZ; no scannable contact information.",
+  "precision": "Uses existing photograph-derived template coordinates; placement is fixed across TeX, PDF, and the layout model."
+}

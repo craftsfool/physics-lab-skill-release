@@ -1,32 +1,46 @@
-# 大学物理实验报告：私有发行
+# 大学物理实验报告：私有插件
 
-本仓库 `craftsfool/physics-lab-skill-release` 及所有Release均为Private，无公开安装包、公开镜像或公开源码。访问与下载需要已授权的GitHub账号。
+当前插件版本 **v0.2.0**，仅限本私有仓库授权账号。没有公开镜像；教材原文、资料库与密钥不在本仓库或安装包中。
 
-开发与API维护在另一个私有仓库 `physics-lab-reference-api`。这里仅保存分发说明；`dist/`忽略Git，ZIP及校验文件作为私有Release附件上传。包内含skill运行文本、辅助脚本、MATLAB样式及210×290 mm四页通用空白模板；不包含教材、前人报告、提取库、账户信息或服务端密钥。
+## 功能亮点
 
-## 安装
+- **真实报告纸排版**：正文、公式、图表进入对应栏目，支持续页与 PDF、源文件及重算脚本交付。
+- **预览与局部修改**：桌面端利用宿主 LaTeX 编辑器在保存/修改后编译刷新；通过支持的选区、批注或引用文字修改目标内容。网页端以文件生成、下载和逐轮修改为主。
+- **首次完整引导**：先介绍功能和“准备材料→选择来源→核对计算→生成→预览修改→检查导出”，再询问必要信息。后续记住当前环境中的选择，支持“使用指南”“重新设置”。
+- **设备登记30天Key**：不需要 OpenAI Client ID、OpenAI API Key 或 KOOK。同一设备凭据重复登记不续期、不重置额度；删除凭据再生成密钥可重新领取，当前版本接受这一限制。
+- **教材章节在线预览**：18个实验原始章节按权限打开，入口5分钟有效；章节原文不随插件分发，不能保证浏览器无法保存或复制。
 
-通过具备访问权限的GitHub账号下载私有Release附件及SHA256校验文件，在本机校验ZIP。使用发行附件 `install_skill.py --archive <ZIP> --sha256-file <校验文件> --destination <Codex skills目录>` 安装。默认安装为新名字`physics-lab-report`，不覆盖已有的`university-physics-lab-report`。如目标目录已存在，先检查已安装版本，安装程序不会自动覆盖。
+## 安装插件
 
-当前私有发行版本为[v0.1.8](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.1.8)。通过已授权账号下载：
+使用有仓库权限的 GitHub 账号：
 
-```bash
-gh release download v0.1.8 --repo craftsfool/physics-lab-skill-release --dir release-v0.1.8
-python3 release-v0.1.8/install_skill.py --archive release-v0.1.8/physics-lab-report-0.1.7.zip --sha256-file release-v0.1.8/physics-lab-report-0.1.7.zip.sha256 --destination "$HOME/.codex/skills"
+```
+codex plugin marketplace add craftsfool/physics-lab-skill-release
 ```
 
-生产接口为`https://physics-lab-reference-api.vercel.app/api/reference`，只接受带个人令牌的POST。当前已发布98个审核模块（教材76、参考报告22），覆盖18个教材实验与22份代表性参考报告。其他提取稿不是已审核内容；安装包不包含原资料。
+在支持私有 marketplace 的桌面端插件目录选择“大学物理实验报告（私有）”，安装“大学物理实验报告”。运行 Setup；即使跳过，首次调用也会介绍完整流程。必要时重启客户端。若已安装旧独立技能，文件会保留；新功能请选择插件本身，避免同名技能混淆。
 
-API端点和用户令牌通过维护者私下配置环境提供。教材/前人资料只经鉴权API，或者由用户明确提供本地文件。API响应只用于当前任务，不写文件；允许缓存AI归纳的知识和来源索引。
+也可从 [v0.2.0 私有 Release](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.0) 下载插件ZIP、SHA256及安装器，校验后解包到新目录：
 
-安装者可以阅读本机skill与客户端；私有分发不能阻止其复制已获得的内容。安装包只有写作与处理能力，私有资料的访问范围由服务端控制。
+```
+python3 install_plugin.py --archive physics-lab-report-plugin-0.2.0.zip --sha256-file physics-lab-report-plugin-0.2.0.zip.sha256 --destination ./physics-lab-private
+codex plugin marketplace add ./physics-lab-private
+```
 
-## 维护者打包
+安装器不覆盖已有插件或marketplace，识别并保留旧技能。安装完成后，在插件目录安装，再开始使用。个人/本机marketplace不会自动同步到ChatGPT网页端；网页私有安装依赖账号、工作区提供的导入与共享能力，不能保证所有账号可用。
 
-在开发仓库运行 `python3 scripts/package_skill.py --output ../physics-lab-skill-release/dist --version <版本>`。显式文件清单与每文件哈希决定包内容。校验包内无原文、账号数据及服务端密钥后，再上传至已确认的私有Release；不要把整理库直接打包。
+## 第一次使用
 
-## v0.1.8环境适配
+可以直接说：“第一次使用大学物理实验报告，介绍功能并带我完成设置。”
 
-首次使用运行skill内的 `scripts/setup_environment.py --project <报告项目目录>`。无API配置时必须先询问使用已有令牌或本地资料，等待选择期间不创建目录；选择本地后才用 `--local-materials` 建立空白教材、前人智慧目录；材料不足时继续独立工作并询取必要条件。无LaTeX时提供官方TinyTeX一键安装入口，用户授权后执行，并检验中文及公式编译。PDF仅在真实编译和版面检查后交付，失败不覆盖已有PDF。
+资料来源可以选择设备登记领取30天Key、已有个人令牌、本地资料或先不提供参考资料。设备登记使用现有 Node.js，私钥和Key写入当前用户私密配置，macOS/Linux权限0600，不在聊天输出。临时云端环境不等于用户物理电脑，也不能跨设备同步。
 
-无本地MATLAB可使用MATLAB Online、Python或Excel，输出注明实际工具；附带标准库CSV线性拟合及可选Excel读取/绘图脚本。保留原本地skill，发行版安装为独立名称；私有API响应不落盘，只允许AI提炼缓存。
+示例：“完成光栅实验预习并打开报告预览”“打开偏振光学的教材章节”“精简我批注的这一段，保留公式”。
+
+生产资料服务为 `https://physics-lab-reference-api.vercel.app/api/reference`。已有个人令牌继续兼容；原文预览需要额外章节权限。默认新设备额度为10次/分钟、100次/天、每天240000预留字符、累计2400000预留字符，首次登记起30天；预览入口计一次普通请求，阅读重载不重复扣除。
+
+## 旧技能与回退
+
+v0.1.8私有Release和附件保持可用。v0.2.0同时提供独立技能包及旧安装器，适用于没有插件入口的受支持环境；完整体验依赖宿主实际文件、编译与预览能力。需要回退时停用新插件再使用旧技能；重置引导不删除任何凭据或报告。
+
+报告源码在私有开发仓库 `craftsfool/physics-lab-reference-api` 中维护，发行目录由显式清单构建，避免维护第二份源码。安装者能够阅读运行文本及客户端，不宣称私有分发可防复制。

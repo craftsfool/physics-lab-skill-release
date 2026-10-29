@@ -1,0 +1,112 @@
+{
+  "paper_mm": [
+    210,
+    290
+  ],
+  "method": "Apple Vision accurate zh-Hans/en-US OCR; perspective and line detection; visual verification of all four photographs",
+  "precision": "Photographic reconstruction. Cropped page edges and paper curvature prevent certified millimetre overlay accuracy.",
+  "qr": "Page 1 original QR location replaced by a user-provided image; page 2 QR remains omitted.",
+  "pages": [
+    {
+      "page": 1,
+      "ruled_lines": 25,
+      "first_rule_y_mm": 73,
+      "pitch_mm": 8.1,
+      "left_mm": 19,
+      "right_mm": 192,
+      "headers": [
+        {
+          "text": "实验原理（简述、原理图及主要公式）",
+          "row": 0
+        },
+        {
+          "text": "实验目的",
+          "row": 9
+        },
+        {
+          "text": "数据记录表（自拟）",
+          "row": 14
+        }
+      ],
+      "reserved_areas": [
+        {
+          "id": "preview_corner_image",
+          "label": "预习页右下角图片",
+          "rect_mm": [
+            173,
+            246,
+            21,
+            22
+          ],
+          "gap_mm": 1
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "ruled_lines": 25,
+      "first_rule_y_mm": 74,
+      "pitch_mm": 8.1,
+      "left_mm": 18,
+      "right_mm": 192,
+      "headers": [
+        {
+          "text": "实验方案及仪器",
+          "row": 0
+        },
+        {
+          "text": "（实验方案，主要仪器及操作要点）",
+          "row": 1
+        },
+        {
+          "text": "*实验过程及现象",
+          "row": 12
+        },
+        {
+          "text": "（操作顺序，观察到什么现象，遇到哪些问题，如何解决）",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "ruled_lines": 29,
+      "first_rule_y_mm": 30,
+      "pitch_mm": 8.4,
+      "left_mm": 18,
+      "right_mm": 192,
+      "headers": [
+        {
+          "text": "实验数据处理及结果",
+          "row": 0
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "ruled_lines": 30,
+      "first_rule_y_mm": 24,
+      "pitch_mm": 8.4,
+      "left_mm": 18,
+      "right_mm": 192,
+      "headers": [
+        {
+          "text": "实验总结及讨论",
+          "row": 0
+        },
+        {
+          "text": "（实验收获、反思及思考题解答）",
+          "row": 1
+        },
+        {
+          "text": "*应用延伸与拓展",
+          "row": 18
+        },
+        {
+          "text": "（日常相关的应用或与自己专业相关的研究）",
+          "row": 19
+        }
+      ]
+    }
+  ]
+}
