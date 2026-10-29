@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "physics-lab-report",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "整理实验数据、绘制图表，按报告纸生成可打印的实验报告。",
   "author": {
     "name": "craftsfool"
   },
   "repository": "https://github.com/craftsfool/physics-lab-skill-release",
-  "license": "Proprietary",
+  "license": "MIT",
   "keywords": [
     "physics",
     "lab-report",

@@ -1,7 +1,7 @@
 {
   "name": "physics-lab-private",
   "interface": {
-    "displayName": "大学物理实验报告（私有）"
+    "displayName": "大学物理实验报告"
   },
   "plugins": [
     {

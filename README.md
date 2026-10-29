@@ -21,9 +21,9 @@
 
 ## 安装
 
-当前版本为 **v0.2.1**，通过私有插件源分发。先由维护者给你的 GitHub 账号授予本仓库访问权限，再在 Codex 中发送：
+当前版本为 **v0.2.2**，插件代码已采用MIT许可开源。无需申请GitHub仓库权限，在 Codex 中发送：
 
-> 请从 GitHub 私有仓库 craftsfool/physics-lab-skill-release 添加插件源，安装其中的“大学物理实验报告”插件，然后带我完成首次设置。
+> 请从 GitHub 仓库 craftsfool/physics-lab-skill-release 添加插件源，安装其中的“大学物理实验报告”插件，然后带我完成首次设置。
 
 也可以自行执行：
 
@@ -38,9 +38,9 @@ codex plugin add physics-lab-report@physics-lab-private
 
 ## 分享给同学
 
-当前还没有面向所有人的官方公共市场页面。上面的安装入口要求接收者先添加私有源，不能代替仓库授权。维护者也可以直接向接收者提供经过校验的私有安装包。
+任何人都可以添加这个开源插件源并安装，无需维护者授权GitHub账号。对方先添加插件源，再使用安装入口；也可以直接下载发行包。
 
-需要通过工作区分享或申请官方市场上架时，请看 [完整安装与分享说明](docs/installation.md)。本机文件路径链接不能直接用于其他电脑。
+开源仓库尚未上架OpenAI官方公共插件目录。公共目录页面需要单独提交审核与发布；本机路径链接不能直接用于其他电脑。完整步骤见 [安装与分享说明](docs/installation.md)。
 
 ## 准备第一次报告
 
@@ -50,7 +50,13 @@ codex plugin add physics-lab-report@physics-lab-private
 
 ## 下载与更新
 
-- [v0.2.1 私有安装包](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.1)
+- [v0.2.2 安装包](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.2)
 - [v0.2.0](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.2.0) 与 [旧技能 v0.1.8](https://github.com/craftsfool/physics-lab-skill-release/releases/tag/v0.1.8) 保留。
 
-通过插件源安装后可更新到新版。私有安装包内不包含教材原文、资料库或个人凭据。
+通过插件源安装后可更新到新版。安装包内不包含教材原文、资料库或个人凭据。
+
+## 开源范围与审查
+
+插件代码、脚本和使用说明采用 [MIT许可](LICENSE)。报告纸中的学校标志等第三方资源不属于MIT授权，见 [第三方资源说明](THIRD_PARTY_NOTICES.md)。本项目不是学校官方产品。
+
+后台服务、教材原文和私有资料库继续独立授权，不在开源范围内。完整Git历史、历史安装包与发行附件已做凭据和私有资料审查，见 [开源前审查报告](docs/open-source-audit.md)。

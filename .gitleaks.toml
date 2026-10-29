@@ -1,0 +1,12 @@
+title = "Physics plugin pre-publication audit"
+[extend]
+useDefault = true
+[[rules]]
+id = "physics-bearer"
+description = "Physics reference bearer credential"
+regex = '''plr_[A-Za-z0-9_-]{43}'''
+[[rules]]
+id = "physics-device-private-key"
+description = "Literal persisted device private key"
+regex = '''["']private_key["']\s*:\s*["']([A-Za-z0-9_-]{50,})["']'''
+secretGroup = 1

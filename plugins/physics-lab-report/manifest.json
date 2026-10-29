@@ -1,8 +1,10 @@
 {
   "kind": "plugin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "files": {
     "physics-lab-report/skills/physics-lab-report/SKILL.md": "5a92353a70bdecac01f23dcd2713d57fa135a14baabe67d4bf5b6408dc6f7047",
+    "physics-lab-report/skills/physics-lab-report/LICENSE": "031625f67c83b95ca73fbce76b6c31b77b7785851ad3a5f9250f73cd20ac0e93",
+    "physics-lab-report/skills/physics-lab-report/THIRD_PARTY_NOTICES.md": "4aadfd6841ad7f4a1c57dbaad72a0f1cbe3a659d1c6986a506bde24bd047a472",
     "physics-lab-report/skills/physics-lab-report/agents/openai.yaml": "6153f86c1c6d758c13383ba8ab47fe12d30294e9c23c080146ae5a51d7475cb5",
     "physics-lab-report/skills/physics-lab-report/references/environment.md": "f599a5b4680e50f813988d83b3dae20b6bac8428a395f9040f49a0ce4e43c176",
     "physics-lab-report/skills/physics-lab-report/references/device-and-chapters.md": "9498fdf86e79720a06c7c3b05826d9e68b6b52cbc255073c43c01bf5409e5133",
@@ -39,10 +41,12 @@
     "physics-lab-report/skills/physics-lab-report/assets/layout-model/layout-budget.json": "f95958317804fb357f2afab1fb2efc621dfc3f19dffe6968a99163ba48b5b819",
     "physics-lab-report/skills/physics-lab-report/assets/layout-model/report-space-model.tex": "b0715c2aca9675ca6e00a30aae4412e7c8c3f423a5353dbac2dee6260d2a8c90",
     "physics-lab-report/skills/physics-lab-report/assets/layout-model/report-space-model.pdf": "0fe8ffae9589fe329daade1ce6fd9219111f3ef6c6acce811f4976e69fba6225",
-    "physics-lab-report/plugin.json": "37c213994672d65c198e1de666080d59b9b351ab8cbb584185ec2c46dbbbfdf7",
+    "physics-lab-report/plugin.json": "c849c999741877f97cc1e656261b950229c2cfb661d7816443aa90a4e0b4be55",
+    "physics-lab-report/LICENSE": "031625f67c83b95ca73fbce76b6c31b77b7785851ad3a5f9250f73cd20ac0e93",
+    "physics-lab-report/THIRD_PARTY_NOTICES.md": "4aadfd6841ad7f4a1c57dbaad72a0f1cbe3a659d1c6986a506bde24bd047a472",
     "physics-lab-report/assets/icon.png": "45c4b84df156fdcfa0db1ed53755b54a6cfe9e697aa985a44aace4554a5b07d5",
     "physics-lab-report/skills/setup/SKILL.md": "229be9da0b997d3d2dda96cb9026042ede33dafff0c92c832702f0b65d02ed86",
     "physics-lab-report/skills/setup/agents/openai.yaml": "578cb02b50f76033be35454f54c6d5bdb15bf0bd3a610f38c8cc4ebc68bf8520",
-    "physics-lab-report/.codex-plugin/plugin.json": "f71ec785ef9caf79b0c3a464aba9507e15bbd05b99152c3f3b6dc1c86c4b6e76"
+    "physics-lab-report/.codex-plugin/plugin.json": "f0c2c2df70c20112c937701e7ff4fbd07f0bca66d72dee4a715ed56ef803f035"
   }
 }
