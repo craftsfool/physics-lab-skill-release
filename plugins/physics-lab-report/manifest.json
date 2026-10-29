@@ -1,9 +1,9 @@
 {
   "kind": "plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "files": {
     "physics-lab-report/skills/physics-lab-report/SKILL.md": "5a92353a70bdecac01f23dcd2713d57fa135a14baabe67d4bf5b6408dc6f7047",
-    "physics-lab-report/skills/physics-lab-report/agents/openai.yaml": "c8f2a04941fa5f0530d5cc74b30cdb4ea372b20d07b202fd7087e9e365ffe35a",
+    "physics-lab-report/skills/physics-lab-report/agents/openai.yaml": "6153f86c1c6d758c13383ba8ab47fe12d30294e9c23c080146ae5a51d7475cb5",
     "physics-lab-report/skills/physics-lab-report/references/environment.md": "f599a5b4680e50f813988d83b3dae20b6bac8428a395f9040f49a0ce4e43c176",
     "physics-lab-report/skills/physics-lab-report/references/device-and-chapters.md": "9498fdf86e79720a06c7c3b05826d9e68b6b52cbc255073c43c01bf5409e5133",
     "physics-lab-report/skills/physics-lab-report/references/onboarding.md": "d9546e414ab4d921fd0c43d95917cffa4503dff71ca66e806bac07f43abab046",
@@ -39,9 +39,10 @@
     "physics-lab-report/skills/physics-lab-report/assets/layout-model/layout-budget.json": "f95958317804fb357f2afab1fb2efc621dfc3f19dffe6968a99163ba48b5b819",
     "physics-lab-report/skills/physics-lab-report/assets/layout-model/report-space-model.tex": "b0715c2aca9675ca6e00a30aae4412e7c8c3f423a5353dbac2dee6260d2a8c90",
     "physics-lab-report/skills/physics-lab-report/assets/layout-model/report-space-model.pdf": "0fe8ffae9589fe329daade1ce6fd9219111f3ef6c6acce811f4976e69fba6225",
-    "physics-lab-report/plugin.json": "480fe5fba661e786a85bef673a1e84af274d0cce772f2abb5d278a5dd519d991",
+    "physics-lab-report/plugin.json": "37c213994672d65c198e1de666080d59b9b351ab8cbb584185ec2c46dbbbfdf7",
+    "physics-lab-report/assets/icon.png": "45c4b84df156fdcfa0db1ed53755b54a6cfe9e697aa985a44aace4554a5b07d5",
     "physics-lab-report/skills/setup/SKILL.md": "229be9da0b997d3d2dda96cb9026042ede33dafff0c92c832702f0b65d02ed86",
     "physics-lab-report/skills/setup/agents/openai.yaml": "578cb02b50f76033be35454f54c6d5bdb15bf0bd3a610f38c8cc4ebc68bf8520",
-    "physics-lab-report/.codex-plugin/plugin.json": "0bc6c12ae1ba43e8d80bc0a460e53d1aba638281bb7ae8af570dae00d930eb60"
+    "physics-lab-report/.codex-plugin/plugin.json": "f71ec785ef9caf79b0c3a464aba9507e15bbd05b99152c3f3b6dc1c86c4b6e76"
   }
 }
